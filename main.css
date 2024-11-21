@@ -1,0 +1,90 @@
+  body {
+     margin: 0;
+     /* Убираем отступы по умолчанию */
+     display: flex;
+     /* Включаем flexbox */
+     justify-content: center;
+     /* Горизонтальное центрирование */
+     align-items: center;
+     /* Вертикальное центрирование */
+     height: 100vh;
+     /* Высота на весь экран */
+     background-color: #ff9f9f;
+     /* Фон для визуализации */
+  }
+
+  button {
+     background: #56a5ff;
+     border-radius: 10px;
+     margin: 2px;
+     height: 100px;
+     width: 100px;
+     font-size: 34px;
+  }
+
+  button:hover {
+     background: #d6a80e;
+     transition: 500ms;
+  }
+
+  input {
+     height: 100px;
+     width: 400px;
+     font-size: 45px;
+     border-radius: 10px;
+  }
+
+  div.dots {
+     width: 250px;
+     height: 250px;
+     border-radius: 50%;
+     position: absolute;
+     z-index: -1;
+
+  }
+
+  div.dot1 {
+
+     background: #7c16c0;
+     opacity: 30%;
+     top: calc(80% - 125px);
+     left: calc(80% - 125px);
+
+  }
+
+  div.dot2 {
+     background: #d60d0d;
+     opacity: 70%;
+     top: calc(30% - 65px);
+     left: calc(90% - 65px);
+     transition: 500ms;
+
+  }
+
+  div.dot3 {
+     width: 100px;
+     height: 100px;
+     background: #9dff00;
+     opacity: 30%;
+     top: calc(30% - 195px);
+     left: calc(60% - 195px);
+
+  }
+
+  div.dot4 {
+     height: 300px;
+     width: 300px;
+     background: #ffbb00;
+     opacity: 30%;
+     top: calc(50% - 200px);
+     left: calc(20% - 200px);
+
+  }
+
+  div.dot5 {
+     background: #097909;
+     opacity: 20%;
+     top: calc(75% - 20px);
+     left: calc(20% - 20px);
+
+  }
